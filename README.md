@@ -7,3 +7,6 @@ DepthFirstSearch `mvn package && java -cp target/algorithms-1.0-SNAPSHOT.jar net
 
 ## Fibonacci
 Fibonacci `mvn package && java -cp target/algorithms-1.0-SNAPSHOT.jar net.sauray.algorithms.Fibonacci`
+
+## Sort
+BubbleSort `mvn package && java -cp target/algorithms-1.0-SNAPSHOT.jar net.sauray.algorithms.BubbleSort`
