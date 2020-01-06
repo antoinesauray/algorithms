@@ -11,7 +11,7 @@ class Fibonacci {
 
     public static int fibMemoize(int n, Integer[] memo) {
         if(memo[n] == null) {
-            memo[n] = fibNaive(n-1) + fibNaive(n-2);
+            memo[n] = fibMemoize(n-1, memo) + fibMemoize(n-2, memo);
         }
         return memo[n];
     }
