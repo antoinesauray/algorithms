@@ -11,3 +11,4 @@ Fibonacci `mvn package && java -cp target/algorithms-1.0-SNAPSHOT.jar net.sauray
 ## Sort
 BubbleSort `mvn package && java -cp target/algorithms-1.0-SNAPSHOT.jar net.sauray.algorithms.BubbleSort`
 InsertionSort `mvn package && java -cp target/algorithms-1.0-SNAPSHOT.jar net.sauray.algorithms.InsertionSort`
+MergeSort `mvn package && java -cp target/algorithms-1.0-SNAPSHOT.jar net.sauray.algorithms.MergeSort`
